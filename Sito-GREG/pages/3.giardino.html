@@ -1,0 +1,339 @@
+<!DOCTYPE html5>
+<html lang="it">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/stile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Progetto arduino</title>
+  </head>
+ 
+  <body>   
+    <!--nav bar bootstrap -->
+    <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../pages/0.index.html">
+            <img src="../style/image/navbar_icon.png" alt="logo Casa " width="30" height="30">
+          </a>
+          <a class="navbar-brand" href="../pages/0.index.html">Casa Domotica</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../pages/1.home.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/2.casa.html">Casa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../pages/3.giardino.html">Giardino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="../pages/4.programmazione.html">Programmazione</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    <!--inizio del contenuto-->
+    <div class="bckgimg">
+      <div class="container-sm" >
+        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+          
+          <!--sezione delle parti realizzate nella casa-->
+          <div class="container-sm pt-4">
+            <div class="row justify-content-md-center">
+              <div class="col-md-4">
+                <div class="container-sm">
+                  <div class="shadow-lg p-3 bg-body rounded">
+                    <p style="text-align:center;" class="fs-4">
+                      <b>PARTI REALIZZATE</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!--insieme delle card-->
+            <div class="row mt-5 pb-4">
+              
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="shadow-lg p-3 bg-body rounded ">
+                    <img src="../style/image/Giardino3.jpg" class="card-img-top" alt="irrigazione del giardino" height="200px" style="object-fit:contain;">
+                    <div class="card-body">
+                      <h5 class="card-title">Sistema di irrigazione</h5>
+                      <p class="card-text">
+                        Sistema basato su un collegamento di tubi sottostante al prato finto, posto sulla 
+                        base; questi collegamenti sono collegati tra loro in modo tale che escano sulla 
+                        superficie da quattro getti; quest'ultimo viene fatto scorrere l'acqua tramite una 
+                        mini pompa d'acqua, che viene controllata dal voltaggio e amperaggio
+                      </p>
+                      <footer class="blockquote-footer">
+                        Ringraziamo: Max, Annichiarico<br />
+                        Ideato dal gruppo
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="shadow-lg p-3 bg-body rounded ">
+                    <img src="../style/image/Lampioni3.jpg" class="card-img-top" alt="lampioni" height="200px" style="object-fit:contain;">
+                    <div class="card-body">
+                      <h5 class="card-title">Impianto di illuminazione esterna</h5>
+                      <p class="card-text">
+                        Illuminazione tramite tre lampioni controllata da una fotoresistenza che rileverà
+                        la presenza di luce o meno, in caso non rilevasse luce, perciò durante la notte si 
+                        accenderà facendo luce all'esterno della casa, in caso contrario si spegnerà
+                      </p>
+                      <footer class="blockquote-footer">
+                        Ideato dal gruppo
+                      </footer>
+                      <br /><br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row pb-4">
+
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="shadow-lg p-3 bg-body rounded ">
+                    <img src="../style/image/cancello 0003.jpeg" class="card-img-top" alt="cancello non montatp" height="200px" style="object-fit:contain;">
+                    <div class="card-body">
+                      <h5 class="card-title">Cancello automatico</h5>
+                      <p class="card-text">
+                        Il cancello automatico è gestita da un motore che verrà attivato tramite un bottone,
+                        che farà attivare il motore facendolo girare in un verso e dopo un certo tempo girerà 
+                        nell'altro senso chiudendo il cancello
+                      </p>
+                      <footer class="blockquote-footer">
+                        Ringraziament: Pradella
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="shadow-lg p-3 bg-body rounded ">
+                    <img src="../style/image/schermo lcd 3.jpeg" class="card-img-top" alt="working progress" height="200px" style="object-fit:contain;">
+                    <div class="card-body">
+                      <h5 class="card-title">Schermo LCD</h5>
+                      <div class="card-text">
+                        uno schermo che si posizionerà in una zona visibile per "interagire" con le persone
+                        che lo vedranno, infatti, visualizzerà sullo schermo messaggi, tipo benvenuto e 
+                        vari testi modicabili tramite arduino<br />
+                      </p>
+                      <footer class="blockquote-footer">
+                        By Unknown
+                      </footer>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        
+        </div><!--fine ombra conteiner-->
+      </div><!--fine conteiner--> 
+
+      <br /><br /><br />
+
+      <div class="container-sm" >
+        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+          
+          <!--parti non realizzate della casa-->
+          <div class="container-sm pt-4">
+            <div class="row justify-content-md-center">
+             
+              <div class="col-md-4">
+                <div class="container-sm">
+                  <div class="shadow-lg p-3 bg-body rounded">
+                    <p style="text-align:center;" class="fs-4">
+                      <b>PARTI NON REALIZZATE</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+
+
+            <!--insieme delle card-->
+            <div class="row mt-5">
+              
+              <div class="col-md-12">
+                <div class="card" >
+                  <div class="shadow-lg p-3 bg-body rounded ">
+                    <img src="../style/image/pannelli.jpg" class="card-img-top" alt="..." height="200px" style="object-fit:contain;">
+                    <div class="card-body">
+                      <h5 class="card-title">Pannelli solari girasole</h5>
+                      <p class="card-text">
+                        Un sistema complesso di pannelli solari che seguono il sole e/o luce per massimizzare
+                        il guadagno di energia durante l'intera giornata; posta su un motore che girerà verso 
+                        la parte dove è presente una luce più intensa; creabile se si aveva piu` tempo a disposizione
+                        e materiali adatti
+                      </p>
+                      <footer class="blockquote-footer">
+                        By Ravelli
+                      </footer>
+                    </div>
+                  </div>                  
+                </div> 
+              </div>
+            
+
+            <div class="row mt-4 pb-4">
+
+              <div class="col-md-6">
+                <div class="card" >
+                  <div class="shadow-lg p-3 bg-body rounded ">
+                    <img src="../style/image/garage.jpeg" class="card-img-top" alt="..." height="200px" style="object-fit:contain;">
+                    <div class="card-body">
+                      <h5 class="card-title">Garage</h5>
+                      <p class="card-text">
+                        Una parte presente nella prima bozza, che abbiamo scartato per la complessita` e spazio
+                        non presente
+                      </p>
+                      <footer class="blockquote-footer">
+                        Ideato dal gruppo
+                      </footer>
+                    </div>
+                  </div>                  
+                </div> 
+              </div>
+
+              <div class="col-md-6">
+                  <div class="card" >
+                    <div class="shadow-lg p-3 bg-body rounded ">
+                      <img src="../style/image/basculante.jpeg" class="card-img-top" alt="..." height="200px"style="object-fit:contain;">
+                      <div class="card-body">
+                        <h5 class="card-title">Basculante</h5>
+                        <p class="card-text">
+                          Una parte del garage, evitato per la sua complessita` e mancanza di tempo nel crearlo
+                        </p>
+                        <footer class="blockquote-footer">
+                          Ideato dal gruppo
+                        </footer>
+                      </div>
+                    </div>                  
+                  </div> 
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row pb-4">
+
+              <div class="col-md-12">
+                <div class="card" >
+                  <div class="shadow-lg p-3 bg-body rounded ">
+                    <img src="../style/image/fontana.jpg" class="card-img-top" alt="..." height="200px"style="object-fit:contain;">
+                    <div class="card-body">
+                      <h5 class="card-title">Fontana</h5>
+                      <p class="card-text">
+                        Alternativa al sistema di irrigazione, formato da una pompa d'acqua e una struttura a 
+                        forma di fontana
+                      </p>
+                      <footer class="blockquote-footer">
+                        By Carmine
+                      </footer>
+                    </div>
+                  </div>                  
+                </div> 
+              </div>
+
+            </div>
+
+        </div><!--fine ombra conteiner-->
+      </div><!--fine conteiner--> 
+    </div>
+       <!--parte finale sito-->
+       <div class="hbot">
+        <h2>Suddivisione dei compiti</h2>
+        <div class="boot">
+
+          <div class="occupazioni">
+            <a href="#">Progettazione</a><br>
+            David Zhu<br>
+            Alessandro Marcheselli<br>
+            Alexia Mantovani<br>
+            Alexandra Misoci<br>
+            Alessandro Furci<br>
+            Giacomo Modenesi<br>
+            Andrea Bianchini<br>
+            Jiaxiang Xu<br>
+          </div>
+
+          <div class="occupazioni">
+            <a href="#">Allestimento</a><br>
+              David Zhu<br>
+              Alessandro Marcheselli<br>
+              Alexia Mantovani<br>
+          </div>
+          
+          <div class="occupazioni">
+            <a href="#">Struttura</a><br>
+            David Zhu<br>
+            Alessandro Marcheselli<br>
+            Alexia Mantovani<br>
+          </div>
+
+          <div class="occupazioni">
+            <a href="#">Grafica</a><br>
+            David Zhu<br>
+            Alessandro Marcheselli<br>
+            Alexia Mantovani<br>
+            Alessandro Furci<br>
+            Andrea Bianchini<br>
+            Jiaxiang Xu<br>
+          </div>
+
+          <div class="occupazioni">
+            <a href="#">Programmazione</a><br>
+            David Zhu<br>
+            Alessandro Marcheselli<br>
+            Alexia Mantovani<br>
+            Alexandra Misoci<br>
+            Giacomo Modenesi<br>
+          </div>  
+
+          <div class="occupazioni">
+            <a href="#">Elettronica</a><br>
+            David Zhu<br>
+            Alessandro Marcheselli<br>
+            Alexia Mantovani<br>
+            Alessandro Furci<br>
+            Andrea Bianchini<br>
+            Jiaxiang Xu<br>
+          </div>
+        </div>
+      </div>
+    </div><!--fine background image-->
+
+    <!--ZONA SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
